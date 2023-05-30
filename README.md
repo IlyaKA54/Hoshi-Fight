@@ -1,2 +1,0 @@
-# Hoshi-Fight
- Game
