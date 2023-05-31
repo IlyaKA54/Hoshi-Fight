@@ -26,7 +26,7 @@ public class PlayerStateMachine : MonoBehaviour, IHealable
         _currentState.enabled = false;
         enabled = false;
         _animator.SetTrigger("IsDie");
-        _gameMenu.BackStartMenu(1);
+        _gameMenu.BackStartMenu(0);
 
     }
     private void Awake()
