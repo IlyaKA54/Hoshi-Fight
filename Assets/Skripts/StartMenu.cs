@@ -18,4 +18,9 @@ public class StartMenu : MonoBehaviour
 
         _flag = !_flag;
     }
+
+    public void Exit()
+    {
+        Application.Quit();
+    }
 }
