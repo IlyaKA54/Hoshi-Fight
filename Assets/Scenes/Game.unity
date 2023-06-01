@@ -30056,6 +30056,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _tranzitions:
   - {fileID: 815398173}
+  _timeout: 15
 --- !u!114 &815398176
 MonoBehaviour:
   m_ObjectHideFlags: 0
