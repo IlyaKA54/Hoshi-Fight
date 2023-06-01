@@ -17,7 +17,7 @@ public class IdleState : PlayerState
 
         if( _waitTime >= _timeout )
         {
-            Animator.SetTrigger("Cute");
+            Animator.SetTrigger("Angry");
             _waitTime = 0;
         }
     }
