@@ -11,6 +11,7 @@ public class MoveState : PlayerState
     {
         _playerInput.DirectionChanged += OnDirectionChanged;
         _staminaAccumulator.StartAccumulator();
+        Animator.SetBool("Run", true);
     }
     private void OnDisable()
     {
@@ -30,6 +31,6 @@ public class MoveState : PlayerState
 
     private void Update()
     {
-        Animator.SetBool("Run", true);
+        
     }
 }
