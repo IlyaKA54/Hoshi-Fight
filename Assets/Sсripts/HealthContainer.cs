@@ -3,7 +3,7 @@ using UnityEngine.Events;
 
 public class HealthContainer : MonoBehaviour
 {
-    [SerializeField] public float _health;
+    [SerializeField] private float _health;
 
     public float Health { get => _health; }
 
