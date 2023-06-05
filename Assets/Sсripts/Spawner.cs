@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class Spawner : MonoBehaviour
 {
-    [SerializeField] EnemyStateMachine[] _enemiesTemplates;
+    [SerializeField] private EnemyStateMachine[] _enemiesTemplates;
 
     public EnemyStateMachine CreateEnemy()
     {

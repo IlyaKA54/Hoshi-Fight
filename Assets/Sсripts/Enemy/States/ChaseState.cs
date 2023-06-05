@@ -19,7 +19,6 @@ public class ChaseState : EnemyState
     private void OnDisable()
     {
         _agent.enabled = false;
-
     }
 
     private void Update()
